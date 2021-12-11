@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Flyy Ride</string>
+    <string name="flyy_ride">Flyy Ride</string>
+    <string name="login">LOGIN</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="login1">LOGIN</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="multiText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna sit aliqua. Ut enim ad minim veniam, quis laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna sit aliqua. Ut enim ad minim veniam, quis laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna sit aliqua. Ut enim ad minim veniam, quis laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna sit aliqua. Ut enim ad minim veniam, quis laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="sample_text">random street, 23 area mylapore23 area mylapore</string>
+    <string name="title">HELP &amp; FAQ</string>
+    <string name="messageWithLink"><a href="">Navigate</a></string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="completed">Completed</string>
+
+</resources>

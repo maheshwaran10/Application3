@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav_menu"
+    app:startDestination="@id/home">
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.amazon.Fragment.HomeFragment"
+        android:label=""
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home_to_homeDetailActivity2"
+            app:destination="@id/homeDetailActivity2"
+            app:popUpTo="@id/home"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/complete"
+        android:name="com.example.amazon.Fragment.CompletedFragment"
+        android:label=""
+        tools:layout="@layout/fragment_completed" >
+        <action
+            android:id="@+id/action_complete_to_home"
+            app:destination="@id/home" />
+        <action
+            android:id="@+id/action_complete_to_completedDetailActivity"
+            app:destination="@id/completedDetailActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/setting"
+        android:name="com.example.amazon.Fragment.SettingFragment"
+        android:label=""
+        tools:layout="@layout/fragment_setting" >
+        <action
+            android:id="@+id/action_setting_to_complete"
+            app:destination="@id/complete" />
+        <action
+            android:id="@+id/action_setting_to_changepasswordActivity"
+            app:destination="@id/changepasswordActivity" />
+        <action
+            android:id="@+id/action_setting_to_helpFaqActivity"
+            app:destination="@id/helpFaqActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/homeDetailActivity2"
+        android:name="com.example.amazon.Activity.HomeDetailActivity"
+        android:label="activity_home_detail"
+        tools:layout="@layout/activity_home_detail" />
+    <activity
+        android:id="@+id/completedDetailActivity"
+        android:name="com.example.amazon.Activity.CompletedDetailActivity"
+        android:label="activity_completed_detail"
+        tools:layout="@layout/activity_completed_detail" />
+    <activity
+        android:id="@+id/changepasswordActivity"
+        android:name="com.example.amazon.Activity.ChangepasswordActivity"
+        android:label="activity_changepassword"
+        tools:layout="@layout/activity_changepassword" />
+    <activity
+        android:id="@+id/helpFaqActivity"
+        android:name="com.example.amazon.Activity.HelpFaqActivity"
+        android:label="activity_help_faq"
+        tools:layout="@layout/activity_help_faq" />
+</navigation>
